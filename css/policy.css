@@ -1,0 +1,411 @@
+/*********************** Refund Policy Css ***********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.logo-img {
+  padding-top: 2vh;
+  width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.logo-img img {
+  width: 100%;
+}
+.policy-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2vh;
+}
+.policy-section h1 {
+  font-size: 40px;
+  color: #002e21;
+  width: 100%;
+  text-align: center;
+}
+.updated{
+  font-size: 22px;
+  font-weight: 500;
+  color: #0b4635;
+  padding: 20px 0 0;
+}
+
+.main li {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 30px 0;
+  color: #07553f;
+  list-style-position: inside;
+  list-style-type: numaric;
+}
+.sub li {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 0 10px 50px;
+  list-style-position: inside;
+  color: #172626;
+  list-style-type: lower-alpha;
+}
+.paragraph li {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 50px;
+  padding: 0 0 0 50px;
+  color: #172626;
+}
+.mailto {
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #172626;
+}
+.sub-list {
+  padding-left: 40px;
+}
+.sub-list li {
+  list-style-type: upper-roman;
+}
+.policy-section a {
+  text-decoration: none;
+  /* color: #172626; */
+  color: blue;
+}
+.inner-para{
+  font-size: 18px;
+  font-weight: 500;
+  color: #172626;
+  padding-left:50px ;
+}
+.circle li{
+  font-size: 18px;
+  font-weight: 500;
+  color: #172626;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 10px 0 10px 100px ;
+}
+.privacy{
+  font-size: 18px;
+  font-weight: 400;
+  color: #172626;
+  padding:15px  0;
+}
+.list-item{
+  font-size: 18px;
+  font-weight: 400;
+  color: #172626;
+}
+.square{
+  padding-left: 50px;
+}
+.sub-square{
+  padding-left: 100px;
+}
+.sub-square li, .square li{
+  font-size: 18px;
+  font-weight: 400;
+  color: #172626;
+  list-style-position: inside;
+  list-style-type: square;
+  padding: 5px 0px;
+}
+.policy-section h2{
+  font-size: 20px;
+  font-weight: 800;
+  padding-top: 30px;
+  color: #07553f;
+}
+.policy-section h3{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 0;
+  color: #07553f
+}
+table{
+  width: 100%;
+ border-collapse: collapse;
+ margin: 30px 0;
+}
+td, th{
+  padding: 15px;
+  border: 1px solid  #07553f;
+  font-size: 18px;
+  font-weight: 400;
+  color: #172626;
+}
+th{
+  font-weight: 700;
+}
+@media (max-width: 1450px) {
+  .policy-section h1 {
+    font-size: 38px;
+  }
+  .updated {
+    font-size: 20px;
+  }
+  .main li {
+    padding: 25px 0;
+    font-size: 18px;
+  }
+  .sub li,
+  .paragraph li {
+    font-size: 16px;
+    padding: 0 0 10px 40px;
+  }
+  .sub-list {
+    padding-left: 30px;
+  }
+  .mailto {
+    padding-left: 25px;
+    font-size: 16px;
+  }
+  .inner-para{
+    font-size: 16px;
+    padding-left:50px ;
+  }
+  .circle li{
+    font-size: 16px;
+    padding: 10px 0 10px 100px ;
+  }
+  .privacy{
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .list-item{
+    font-size: 16px;
+  }
+  .square{
+    padding-left: 40px;
+  }
+  .sub-square{
+    padding-left: 80px;
+  }
+  .sub-square li, .square li{
+    font-size: 16px;
+    padding: 5px 0px;
+  }
+  .policy-section h2{
+    font-size: 18px;
+    padding-top: 25px;
+  }
+  .policy-section h3{
+    font-size: 16px;  
+    padding: 15px 0;
+  }
+  table{
+   margin: 30px 0;
+  }
+  td, th{
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+@media(max-width:1300px){
+  .policy-section  h1 {
+        font-size: 36px;
+      }
+      .updated{
+        font-size: 18px;
+        padding: 10px 0 0;
+      }
+      .main li {
+        padding: 20px 0;
+        font-size: 17px;
+      }
+      .sub li,
+      .paragraph li {
+        font-size: 15px;
+        padding: 0 0 10px 35px;
+      }
+      .sub-list {
+        padding-left: 25px;
+      }
+      .mailto {
+        font-size: 15px;
+      }
+      .inner-para{
+        font-size: 15px;
+        padding-left:50px ;
+      }
+      .circle li{
+        font-size: 15px;
+        padding: 10px 0 10px 80px ;
+      }
+      .privacy{
+        font-size: 15px;
+        padding: 10px 0;
+      }
+      .list-item{
+        font-size: 15px;
+      }
+      .square{
+        padding-left: 30px;
+      }
+      .sub-square{
+        padding-left: 60px;
+      }
+      .sub-square li, .square li{
+        font-size: 15px;
+        padding: 5px 0px;
+      }
+      .policy-section h2{
+        font-size: 17px;
+        padding-top: 22px;
+      }
+      .policy-section h3{
+        font-size: 15px;  
+        padding: 12px 0;
+      }
+      table{
+        margin: 25px 0;
+       }
+       td, th{
+         padding: 12px;
+         font-size: 15px;
+       }
+    
+}
+
+@media(max-width:850px){
+  .logo-img{
+    width: 18%;
+  }
+  .policy-section h1 {
+        font-size: 34px;
+      }
+      .updated{
+        font-size: 14px;
+        padding: 0px 0 0;
+      }
+    .policy-section {
+        width: 85%;
+    }
+    .main li{
+       padding: 10px 0;
+       font-size: 16px;
+    }
+    .policy-section{
+        gap: 20px;
+    }
+    .sub li, .paragraph li{
+        padding: 0 0 10px 30px;
+        font-size: 14px;
+    }
+    .mailto{
+        font-size: 14px;
+    }
+    .inner-para{
+      font-size: 14px;
+      padding-left:40px ;
+    }
+    .circle li{
+      font-size: 14px;
+      padding: 10px 0 10px 70px ;
+    }
+    .privacy{
+      font-size: 14px;
+      padding: 8px 0;
+    }
+    .list-item{
+      font-size: 14px;
+    }
+    .square{
+      padding-left: 25px;
+    }
+    .sub-square{
+      padding-left: 40px;
+    }
+    .sub-square li, .square li{
+      font-size: 14px;
+      padding: 5px 0px;
+    }
+    .policy-section h2{
+      font-size: 16px;
+      padding-top: 20px;
+    }
+    .policy-section h3{
+      font-size: 14px;  
+      padding: 10px 0;
+    }
+    table{
+      margin: 20px 0;
+     }
+     td, th{
+       padding: 10px;
+       font-size: 14px;
+     }
+  
+}
+@media(max-width:500px){
+  .logo-img{
+    width: 20%;
+  }
+  .policy-section  h1 {
+        font-size: 25px;
+      }
+      .policy-section{
+        gap: 10px;
+        width: 90%;
+      }
+      .main li{
+        padding: 10px 0;
+        font-size: 14px;
+     }
+     .policy-section{
+         gap: 10px;
+     }
+     .sub li, .paragraph li{
+         padding: 0 0 10px 20px;
+         font-size: 12px;
+     }
+     .mailto{
+         font-size: 12px;
+     }
+     .inner-para{
+      font-size: 12px;
+      padding-left:30px ;
+    }
+    .circle li{
+      font-size: 12px;
+      padding: 5px 0 5px 50px ;
+    }
+    .privacy{
+      font-size: 12px;
+      padding: 0px 0;
+    }
+    .list-item{
+      font-size: 12px;
+    }
+    .square{
+      padding-left: 10px;
+    }
+    .sub-square{
+      padding-left: 20px;
+    }
+    .sub-square li, .square li{
+      font-size: 12px;
+      padding: 5px 0px;
+    }
+    .policy-section h2{
+      font-size: 15px;
+      padding-top: 10px;
+    }
+    .policy-section h3{
+      font-size: 12px;  
+      padding: 10px 0;
+    }
+    td, th{
+      padding: 5px;
+      font-size: 12px;
+    }
+}
